@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TgMovieSearchRequestBot')
 API_ID = int(environ.get('API_ID', '19491592'))
 API_HASH = environ.get('API_HASH', '01a4118f7aec3b2caece77a057fdd197')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5667534661:AAEiRSAoA-YVDi8-6SNYqgku9lgEjouThw0")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5667534661:AAEda8uXoXvt0XUOMYZ6ik5Xv4rDHl1dmjg")
 
 #Port
 PORT = environ.get("PORT", "8080")

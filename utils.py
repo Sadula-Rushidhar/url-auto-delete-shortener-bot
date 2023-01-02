@@ -381,9 +381,9 @@ def humanbytes(size):
 async def get_shortlink(link):
     https = link.split(":")[0]
     if "http" == https:
-        https = "http"
+        https = "https"
         link = link.replace("http", https)
-    url = f'http://dulink.in/api'
+    url = f'https://dulink.in/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
@@ -393,7 +393,7 @@ async def get_shortlink(link):
             async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
                 data = await response.json()
                 if data["status"] == "success":
-                    return data['shortenedUrl']
+                    return data['shortenedUrl'].replace("https","http")
                 else:
                     logger.error(f"Error: {data['message']}")
                    # return f'{link}'

@@ -109,7 +109,7 @@ async def next_page(bot, query):
     btn.insert(0,
         [
             InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://telegram.me/How_To_Download_1/13'),
-            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/+iaosDv5RlYdiMDVl')
+            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RequestMoviez1999')
         ]
     )
 
@@ -688,7 +688,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0,
         [
             InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://telegram.me/How_To_Download_1/13'),
-            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/+iaosDv5RlYdiMDVl')
+            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RequestMoviez1999')
         ]
     )
 
@@ -776,7 +776,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in that name. \n[⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚](https://telegram.me/+iaosDv5RlYdiMDVl)")
+        k = await msg.reply("I couldn't find any movie in that name. \n[⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚](https://telegram.me/RequestMoviez1999)")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -805,7 +805,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling.\n[⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚](https://telegram.me/+iaosDv5RlYdiMDVl)")
+        k = await msg.reply("I couldn't find anything related to that. Check your spelling.\n[⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚](https://telegram.me/RequestMoviez1999)")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -817,7 +817,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these? \n[⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚](https://telegram.me/+iaosDv5RlYdiMDVl)",
+    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these? \n[⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚](https://telegram.me/RequestMoviez1999)",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 

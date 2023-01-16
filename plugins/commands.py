@@ -45,8 +45,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://telegram.me/Use_Full_Bots')
             ],[
-            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/+iaosDv5RlYdiMDVl'),
-            InlineKeyboardButton('⚚ 𝙈𝙖𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/+ya-XHUGAHGRjZWI1')
+            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RequestMoviez1999'),
+            InlineKeyboardButton('⚚ 𝙈𝙖𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RushidharMoviez')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://telegram.me/Use_Full_Bots')
             ],[
-            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/+iaosDv5RlYdiMDVl'),
-            InlineKeyboardButton('⚚ 𝙈𝙖𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/+ya-XHUGAHGRjZWI1')
+            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RequestMoviez1999'),
+            InlineKeyboardButton('⚚ 𝙈𝙖𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RushidharMoviez')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
